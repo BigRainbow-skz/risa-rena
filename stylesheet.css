@@ -1,0 +1,95 @@
+body{
+  margin:0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header{
+  height:80px;
+  width: 100%;
+  background-color: rgba(248,220,220,0.7);
+
+}
+
+.main{
+  height:600px;
+  width: 100%;
+  background-image: url("理佐麗奈.jpg");
+  background-color:rgba(255,255,255,0.7);
+  background-blend-mode:lighten;
+  background-size: cover;
+}
+
+.logo{
+  width:60px;
+  margin-top: -10px;
+  margin-left: -40px;
+}
+
+.header-left{
+float: left;
+}
+
+.header-center h1{
+  color: #4169e1;
+  text-align: center;
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+.header-right{
+  color:#4169e1;
+  text-align:right;
+  margin-top: -60px;
+}
+
+.risa{
+  margin-top: 20px;
+  float: left;
+  width:50%;
+  text-align: center;
+}
+
+.risa-image{
+  margin-left: 190px;
+  width:80px;
+}
+
+.risa-prof h1{
+  color:#ff8080;
+  text-align: center;
+}
+
+.risa-prof ul{
+  text-align: center;
+  color: blue;
+}
+
+.rena{
+  margin-top: 20px;
+  float: right;
+  width:50%;
+  text-align: center;
+}
+
+.rena-image{
+  margin-left: 190px;
+  width:80px;
+}
+
+.rena-prof h1{
+  color:#ff8080;
+  text-align: center;
+}
+
+.rena-prof ul{
+  text-align: center;
+  color: blue;
+}
