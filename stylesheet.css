@@ -105,47 +105,35 @@ width:15%;
 }
 
 .rena-prof ul{
-  width:50%;
+  width: 50%;
   margin:auto;
   color: blue;
+  text-align: center;
 }
 
 .rena-prof li{
 text-align: left;
 }
 
-@media all and (max-width: 670px) {
-  .lesson {
-    width: 100%;
-  }
-
-  .btn {
-    width: 100%;
-  }
-
-  .facebook {
-    margin-bottom: 10px;
-  }
-
-  .top-wrapper {
-    text-align: left;
-  }
-
-  /* header-rightクラスのdisplayをnoneに指定してください */
+@media(min-width: 500px) {
   .header-right{
-    display:none;
-  }
+    float:right;
+    width:20%;
+    margin: auto;
+}
 
-  /* menu-iconクラスのdisplayをblockに指定してください  */
-  .menu-icon{
-    display:block;
-  }
+.risa-prof ul{
+  width: 60%;
+  margin: auto;
+  color: blue;
+}
 
-  .top-wrapper h1 {
-    font-size: 24px;
-  }
+.rena-prof ul{
+  width:65%;
+  margin:auto;
+  color: blue;
+  text-align: center;
+}
 
-  .top-wrapper p {
-    font-size: 14px;
-  }
+
 }
