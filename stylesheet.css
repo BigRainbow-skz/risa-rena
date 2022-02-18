@@ -6,21 +6,17 @@ a{
   text-decoration: none;
 }
 
-.container{
-  width: 1170px;
-  margin: 0 auto;
-}
-
 .header{
   height:80px;
   width: 100%;
+  display: flex;
   background-color: rgba(248,220,220,0.7);
-
 }
 
 .main{
   height:600px;
   width: 100%;
+  padding-top: 5%;
   background-image: url("理佐麗奈.jpg");
   background-color:rgba(255,255,255,0.7);
   background-blend-mode:lighten;
@@ -28,38 +24,49 @@ a{
 }
 
 .logo{
-  width:60px;
-  margin-top: -10px;
-  margin-left: -40px;
+  width:33%;
+  float:left;
 }
 
 .header-left{
 float: left;
+width:15%;
+}
+
+.header-center{
+  float:center;
+  width:70%;
 }
 
 .header-center h1{
   color: #4169e1;
   text-align: center;
-  margin-top: auto;
-  padding-top: 10px;
 }
 
 .header-right{
+  float:right;
+  width:15%;
+  margin: auto;
+}
+
+.header-right h3{
   color:#4169e1;
-  text-align:right;
-  margin-top: -60px;
+  text-align:center;
+
 }
 
 .risa{
-  margin-top: 20px;
   float: left;
   width:50%;
-  text-align: center;
 }
 
 .risa-image{
-  margin-left: 190px;
-  width:80px;
+  text-align: center;
+}
+
+.risa-prof{
+  width: 100%;
+  margin: 0 auto;
 }
 
 .risa-prof h1{
@@ -68,21 +75,29 @@ float: left;
 }
 
 .risa-prof ul{
-  text-align: center;
+  width: 50%;
+  margin: auto;
   color: blue;
 }
 
+.risa-prof li{
+  text-align: left;
+}
+
 .rena{
-  margin-top: 20px;
   float: right;
   width:50%;
-  text-align: center;
 }
 
 .rena-image{
-  margin-left: 190px;
-  width:80px;
+  text-align: center;
 }
+
+.rena-prof{
+  width: 100%;
+  margin: 0 auto;
+}
+
 
 .rena-prof h1{
   color:#ff8080;
@@ -90,6 +105,47 @@ float: left;
 }
 
 .rena-prof ul{
-  text-align: center;
+  width:50%;
+  margin:auto;
   color: blue;
+}
+
+.rena-prof li{
+text-align: left;
+}
+
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  /* header-rightクラスのdisplayをnoneに指定してください */
+  .header-right{
+    display:none;
+  }
+
+  /* menu-iconクラスのdisplayをblockに指定してください  */
+  .menu-icon{
+    display:block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
 }
