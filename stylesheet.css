@@ -82,6 +82,7 @@ width:15%;
 
 .risa-prof li{
   text-align: left;
+  padding-left: 20%;
 }
 
 .rena{
@@ -112,6 +113,7 @@ width:15%;
 }
 
 .rena-prof li{
+  padding-left: 20%;
 text-align: left;
 }
 
@@ -128,6 +130,11 @@ text-align: left;
   color: blue;
 }
 
+.risa-prof li{
+text-align: left;
+padding-left: 0;
+}
+
 .rena-prof ul{
   width:65%;
   margin:auto;
@@ -135,5 +142,9 @@ text-align: left;
   text-align: center;
 }
 
+.rena-prof li{
+text-align: left;
+padding-left: 0; 
+}
 
 }
