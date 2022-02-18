@@ -82,7 +82,8 @@ width:15%;
 
 .risa-prof li{
   text-align: left;
-  padding-left: 20%;
+  padding-left: 10%;
+  width:105%;
 }
 
 .rena{
@@ -113,11 +114,12 @@ width:15%;
 }
 
 .rena-prof li{
-  padding-left: 20%;
+  padding-left: 5%;
 text-align: left;
+width:125%;
 }
 
-@media(min-width: 500px) {
+@media(max-width: 500px) {
   .header-right{
     float:right;
     width:20%;
@@ -144,7 +146,7 @@ padding-left: 0;
 
 .rena-prof li{
 text-align: left;
-padding-left: 0; 
+padding-left: 0;
 }
 
 }
