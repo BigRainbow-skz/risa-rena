@@ -82,7 +82,7 @@ width:15%;
 
 .risa-prof li{
   text-align: left;
-  padding-left: 10%;
+  padding-left: 20%;
   width:105%;
 }
 
@@ -114,21 +114,56 @@ width:15%;
 }
 
 .rena-prof li{
-  padding-left: 5%;
+  padding-left: 20%;
 text-align: left;
 width:125%;
 }
 
-@media(max-width: 500px) {
-  .header-right{
-    float:right;
+
+@media(max-width: 670px) {
+
+html{
+  width:115%;
+}
+
+.logo{
+  width:80%;
+}
+
+.header-left{
+width:15%;
+}
+
+.header-center{
+  float:center;
+  width:70%;
+}
+
+.header-center h1{
+  color: #4169e1;
+  text-align: center;
+  font-size: 28px;
+}
+
+.header-right{
     width:20%;
     margin: auto;
+    font-size: 10px;
+}
+
+.main{
+  height:1200px;
+  background-position: center;
+}
+
+.risa{
+  width:100%;
 }
 
 .risa-prof ul{
   width: 60%;
   margin: auto;
+  padding-left:10%;
   color: blue;
 }
 
@@ -137,11 +172,16 @@ text-align: left;
 padding-left: 0;
 }
 
+.rena{
+  width: 100%;
+  padding-top:5%;
+}
+
 .rena-prof ul{
-  width:65%;
+  width:60%;
   margin:auto;
+  padding-left:10%;
   color: blue;
-  text-align: center;
 }
 
 .rena-prof li{
